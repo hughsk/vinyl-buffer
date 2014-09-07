@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "main": "index.js",
   "dependencies": {
-    "bl": "^0.7.0",
-    "through2": "^0.4.1"
+    "bl": "^0.9.1",
+    "through2": "^0.6.1"
   },
   "devDependencies": {
     "tape": "~2.5.0",
