@@ -15,7 +15,6 @@ function vinylBuffer() {
     file.contents.pipe(bl(function(err, data) {
       if (err) return next(err)
 
-      file = file.clone()
       file.contents = data
 
       push(file, next)
