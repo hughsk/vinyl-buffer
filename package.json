@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "tape": "~2.5.0",
-    "vinyl-source-stream": "~1.1.1"
+    "vinyl-source-stream": "~2.0.0"
   },
   "scripts": {
     "test": "node test"
