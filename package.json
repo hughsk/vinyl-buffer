@@ -1,7 +1,7 @@
 {
   "name": "vinyl-buffer",
   "description": "Convert streaming vinyl files to use buffers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "dependencies": {
     "bl": "^1.2.1",
