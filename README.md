@@ -17,7 +17,7 @@ var gulp = require('gulp')
 gulp.task('build', function() {
   var bundler = browserify('./index.js')
 
-  return bundler.pipe()
+  return bundler.bundle()
     .pipe(source('index.js'))
     .pipe(buffer())
     .pipe(uglify())
