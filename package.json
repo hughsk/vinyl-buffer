@@ -4,7 +4,7 @@
   "version": "1.0.1",
   "main": "index.js",
   "dependencies": {
-    "bl": "^1.2.1",
+    "bl": "^4.0.3",
     "through2": "^2.0.3"
   },
   "devDependencies": {
